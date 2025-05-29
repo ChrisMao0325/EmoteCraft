@@ -1,7 +1,7 @@
 # EmoteCraft: Affect-Responsive Dialogue System for Game Characters
 
 ## 📖 1. Introduction
-
+![99dd92821a47fa526faf9a869093f28](https://github.com/user-attachments/assets/4488b6ca-d984-4dd3-8780-748e9aab9721)
 This project proposes the development of an **Affect-Responsive Dialogue System** for game characters, inspired by the relationship between dialogue, emotional state, and character portrayal as seen in the provided example. The system aims to enable NPCs to dynamically alter their dialogue—and optionally facial expressions or behavior—based on an analyzed emotional state. This creates more immersive and believable interactions.
 
 > **Example Reference**: A character resembling Emily from *Stardew Valley* says,  
