@@ -1,4 +1,5 @@
 # EmoteCraft: Affect-Responsive Dialogue System for Game Characters
+<img width="512" alt="d64f9857f41a90b1af8178c0c1c65f6" src="https://github.com/user-attachments/assets/07baf166-40ed-4796-9123-5729a7acde0c" />
 
 ## 📖 1. Introduction
 ![99dd92821a47fa526faf9a869093f28](https://github.com/user-attachments/assets/4488b6ca-d984-4dd3-8780-748e9aab9721)
