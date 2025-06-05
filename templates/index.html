@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EmoteCraft - Dialogue Group Selection</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: url('/static/images/back_ground.jpg') center center/cover no-repeat fixed;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 60px auto 0 auto;
+            background: rgba(255,255,255,0.92);
+            border-radius: 16px;
+            box-shadow: 0 2px 16px #0002;
+            padding: 48px 36px 36px 36px;
+            text-align: center;
+        }
+        .title { font-size: 2.8em; font-weight: bold; color: #4e8cff; margin-bottom: 12px; letter-spacing: 2px; }
+        .subtitle { font-size: 1.15em; color: #333; margin-bottom: 36px; line-height: 1.7; }
+        .select-label { font-size: 1.1em; font-weight: bold; color: #222; margin-bottom: 10px; display: block; }
+        select { width: 320px; padding: 8px 12px; font-size: 1em; border-radius: 8px; border: 1px solid #bbb; margin-bottom: 18px; }
+        button { padding: 10px 32px; font-size: 1.1em; border-radius: 8px; border: none; background: #4e8cff; color: #fff; cursor: pointer; transition: background 0.2s; }
+        button:hover { background: #2566c6; }
+        @media (max-width: 600px) {
+            .container { padding: 24px 8px; }
+            select { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">EmoteCraft</div>
+        <div class="subtitle">
+            An AI-driven system that dynamically generates nuanced emotional portraits for game characters based on dialogue text,<br>
+            aiming to enhance player immersion and significantly reduce artistic workload.
+        </div>
+        <form action="/dialogue" method="get">
+            <label class="select-label" for="logname">Select a Dialogue Group:</label>
+            <select name="logname" id="logname">
+                {% for group in groups %}
+                <option value="{{ group.group_id }}">{{ group.display }}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <button type="submit">Open Dialogue</button>
+        </form>
+    </div>
+</body>
+</html> 
