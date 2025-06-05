@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 1. Introduction
+## 📖 Introduction
 ![99dd92821a47fa526faf9a869093f28](https://github.com/user-attachments/assets/4488b6ca-d984-4dd3-8780-748e9aab9721)
 This project proposes the development of an **Affect-Responsive Dialogue System** for game characters, inspired by the relationship between dialogue, emotional state, and character portrayal as seen in the provided example. The system aims to enable NPCs to dynamically alter their dialogue—and optionally facial expressions or behavior—based on an analyzed emotional state. This creates more immersive and believable interactions.
 
@@ -19,21 +19,6 @@ This project proposes the development of an **Affect-Responsive Dialogue System*
 >  
 > **Mood Analysis**: The dialogue conveys strong negative emotion, reflecting emotional pain and disappointment. Terms like "心都碎了" ("heartbroken") express sadness and betrayal, while the refusal to continue the conversation suggests a state of anger, despair, and emotional withdrawal.
 
----
-
-## 🎯 2. Project Goals
-
-- **Develop a Mood Analysis Module**  
-  Analyze text-based dialogue to classify it into emotional tones (e.g., happiness, sadness, anger, fear, surprise, disappointment).
-
-- **Create a Dynamic Dialogue Generation Engine**  
-  Generate or select dialogue responses based on the current emotional state and interaction context.
-
-- **Integrate with Character Visuals**  
-  Modify character portraits or sprites to reflect emotions visually.
-
-- **Build a Proof of Concept**  
-  Create a prototype showing a character whose mood and dialogue change dynamically in response to interaction triggers.
 
 ---
 
@@ -66,16 +51,6 @@ This project proposes the development of an **Affect-Responsive Dialogue System*
 
 ---
 
-## 📷 Screenshot
-![EmoteCraft Screenshot](static/images/stardew_bg.png)
-
----
-
-## 📚 License
-MIT
-
----
-
 ## ⚙️ LLM API Configuration
 To enable AI prompt generation, you need to configure your LLM (Large Language Model) API credentials. Set the following environment variables before running the app:
 
@@ -96,5 +71,14 @@ set LLM_API_BASE=https://api.openai.com/v1
 set LLM_API_KEY=sk-xxxxxxx
 set LLM_MODEL_NAME=gpt-3.5-turbo
 ```
+---
 
-If you use a different provider (e.g., DeepSeek), adjust the values accordingly.
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+## 📬 Contact & Contribution
+
+We welcome feedback, suggestions, and contributions!
+-   **GitHub Repository Issues Page**: For bug reports, feature requests, and discussions, please submit on the [[Issues](https://github.com/ChrisMao0325/EmoteCraft/issues)]
+
